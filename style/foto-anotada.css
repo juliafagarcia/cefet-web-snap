@@ -13,8 +13,8 @@
   max-width: 100%;
 }
 
-
 .marcacao {
+  height: 160px;
   border: 1px solid black;
   box-shadow: 0 0 0 1px white;
   background-color: rgba(255, 255, 255, 0.2);
@@ -37,10 +37,12 @@
 
 .marcacoes-ocultas .marcacao {
   /* --- Exercício 0 --- */
+  opacity: 0;
+  pointer-events: none;
 }
 
-
 #balaozinho {
+  position: absolute;
   border: 1px solid silver;
   background-color: rgba(255, 255, 255, .9);
   font-size: 10px;
